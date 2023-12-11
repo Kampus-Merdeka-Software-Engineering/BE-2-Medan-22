@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const origins = ['http://127.0.0.1:5500', 'http://localhost:5500'];
+const origins = ['https://kampus-merdeka-software-engineering.github.io'];
 
 app.use(
 	cors({
