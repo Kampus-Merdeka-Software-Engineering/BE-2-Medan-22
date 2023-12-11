@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const origins = ['https://kampus-merdeka-software-engineering.github.io'];
+const origins = ['https://fe-2-medan-22.vercel.app'];
 
 app.use(
 	cors({
